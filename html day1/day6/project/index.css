@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mainone{
+    width: 80%;
+    margin: auto;
+}
+.gallery{
+    float: left;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 70px;
+}
+.gallery:hover{
+    border: 2px solid green;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+p{
+    text-align: center;
+}

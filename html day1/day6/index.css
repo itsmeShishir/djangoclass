@@ -1,0 +1,44 @@
+*{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Group Selector */
+/* h1, h2, p{
+    color: white;
+}
+.hello{
+    color: wheat;
+    position: relative;
+    /* top: 50px; */
+    /* right: 50px; */
+    /* left: 50px; 
+} */
+/* img{
+    width: 500px;
+    height: 400px;
+}
+.h1{
+     position: absolute;
+     top: 50px;
+     left: 50px;
+}
+.main{
+    height: 1500px;
+}
+p{
+    position: fixed;
+    opacity: 1;
+} */
+.classone{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
