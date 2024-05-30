@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shishir</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sagar{
+            width: 300px;
+            height: 300px;
+            transition: width 2s , height 5s, border-radius 2s;
+            animation-name: ram;
+            animation-duration: 40s;
+        }
+        .sagar:hover{
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+        }
+        @keyframes ram {
+            from{
+            background-color: aqua;
+            }to{
+            background-color: red;
+            }
+        }
+        /* mobile */
+        @media screen and (max-width: 600px) {
+            body{
+                background-color: red;
+            }
+            
+        }
+        /* ipad */
+        @media screen and (min-width: 601px ) and (max-width: 1025px){
+            body{
+                background-color: rgb(0, 0, 0);
+            }
+            
+        }
+        @media screen and (min-width: 1026px) {
+            body{
+                background-color: rgb(166, 255, 0);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+        <div class="sagar">hello</div>
+    </body>
+</html>

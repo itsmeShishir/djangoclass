@@ -23,7 +23,7 @@
 .spacebetween{
     justify-content: space-between;
 }
-.flex img{
+.logo{
     width: 70px;
     height: 20px;
 }
@@ -58,4 +58,95 @@
 .texts h1{
     color: white;
     font-family: "Open Sans";
+}
+.heightmain{
+    height: 500px;
+}
+.mt{
+    margin-top: 50px;
+}
+.mb{
+    margin-bottom: 50px;
+}
+.all{
+    width: 348px;
+    height: 232px;
+    border-radius: 15px;
+}
+.heading{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #344767;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 14px;
+    font-weight: 300;
+    width: 70%;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: #67748B;
+    margin-bottom: 20px;
+}
+.button{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: #CB0C9F;
+    text-decoration: none;
+    padding: 6px 18px;
+    border: 2px solid #CB0C9F;
+    border-radius: 10px;
+}
+.card{
+    height: 550px;
+}
+.next{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #CB0C9F;
+    text-decoration: none;
+}
+.headings{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #344767;
+    font-weight: 500;
+}
+.paragraphs{
+    font-size: 14px;
+    font-weight: 300;
+    width: 80%;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: #67748B;
+    margin-bottom: 10px;
+}
+.para{
+    width: 90%;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: #67748B;
+    margin-bottom: 20px;
+}
+.heightm{
+    height: 700px;
+}
+.flex_dirction{
+    flex-direction: column;
+}
+.allimg{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: fill;
+}
+.h{
+    height: auto;
 }
