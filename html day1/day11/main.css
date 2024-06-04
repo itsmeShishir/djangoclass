@@ -1,0 +1,27 @@
+.link:hover{
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+a:link{
+    color: aqua;
+}
+.main{
+   visibility: hidden;
+    background: #000;
+
+}
+div + h1{
+    color: gray;
+}
+/* pseudo element */
+h1::before{
+    content: url("https://plus.unsplash.com/premium_photo-1683140459800-863c4fc0ed5d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8");
+}
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::first-line{
+    color: aqua;
+}

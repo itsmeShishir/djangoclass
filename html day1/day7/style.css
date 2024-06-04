@@ -4,25 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
 .heighth{
     height: 70px;
 }
-.flex{
-    display: flex;
-}
-.alignitem{
-    align-items: center;
-}
+
 .boxshadow{
     box-shadow: 0px 0px 5px rgb(186, 182, 182);
 }
-.spacebetween{
-    justify-content: space-between;
-}
+
 .logo{
     width: 70px;
     height: 20px;
@@ -63,10 +52,10 @@
     height: 500px;
 }
 .mt{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .mb{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .all{
     width: 348px;
@@ -135,18 +124,81 @@
     color: #67748B;
     margin-bottom: 20px;
 }
+
 .heightm{
-    height: 700px;
+    height: 500px;
 }
 .flex_dirction{
     flex-direction: column;
 }
 .allimg{
     width: 100%;
-    height: auto;
+    height: 450px;  
     border-radius: 30px;
-    object-fit: fill;
+    object-fit: cover;
 }
 .h{
-    height: auto;
+    height: 500px;
+}
+.cards{
+    height: 500px;
+    width: 90%;
+}.headings{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #344767;
+    font-weight: 500;
+}
+.paragraphs{
+    font-size: 14px;
+    font-weight: 300;
+    width: 80%;
+    text-align: start;
+    font-family: "Open Sans";
+    color: #67748B;
+    margin-bottom: 20px;
+}
+.link{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: #CB0C9F;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.shishir{
+    color: black !important;
+}
+/* ipad */
+@media screen and (min-width: 601px ) and (max-width: 1025px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1026px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flex{
+        display: flex;
+    }
+    .alignitem{
+        align-items: center;
+    }
+    .spacebetween{
+        justify-content: space-between;
+    }
+    .mt{
+        margin-top: 50px;
+    }
+    .mb{
+        margin-bottom: 50px;
+    }
 }
