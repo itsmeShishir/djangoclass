@@ -22,6 +22,15 @@ p::first-letter{
     color: red;
     font-size: 30px;
 }
-p::first-line{
+.hi::first-line{
     color: aqua;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://cdn.ssavr.com/images/mac/imac-desktop.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
