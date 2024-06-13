@@ -39,10 +39,16 @@ f(20);
 
 // Anormous function
 let u = function(){
-    console.log("Anormous")
+   return "Anormous";
 }
-u();
+console.log(u());
 
 //arrow function
-let h = (a=10, c= 20)=> a+c;
+let h = (a=10, c= 20)=> {
+   return a+c
+};
 console.log(h());
+
+
+// arrays 
+
